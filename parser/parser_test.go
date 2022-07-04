@@ -79,8 +79,6 @@ func TestLetStatement(t *testing.T) {
 	let x = 5;
 	let y = 10;
 	let foo = 86400;
-	let 330 330;
-	let = 100;
 `
 	lx := lexer.New(input)
 	p := New(lx)
